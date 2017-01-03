@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Raleway);
+* {
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	color: #5E5E5E;
+	text-decoration: none;
+}
+
+body {
+	margin-left: 2em;
+	margin-right: 2em;
+	color: #525252;
+	font-family: 'Crimson Text', Garamond, serif;
+	line-height: 1.25em;
+}
+
+main {
+	width: 700px;
+	float: left;
+	margin-left: 80px;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	width: 700px
+}
+
+aside {
+	width: 400px;
+	float: right;
+	padding-top: 30px;
+	margin-right: 80px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#navbar {
+	margin-right: 200px;
+	margin-left: 200px;
+	text-align: center;
+	padding-bottom: 80px
+} 
+
+#navbar li {
+    list-style-type: none;
+    display: inline;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+
+h1 {
+	font-family: 'Raleway', Helvetica, sans-serif;
+	text-align: center;
+	margin-right: 200px;
+	margin-left: 200px;
+	color: #84BE6A;
+	font-weight: 700;
+	line-height: 0;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+h4 {
+	font-family: 'Raleway', Helvetica, sans-serif;
+	color: #525252;
+	font-weight: 300;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+
+h4.featuredrecipe {
+	font-family: 'Crimson Text', Garamond; serif;
+	font-weight: 300px;
+	font-size: 16px;
+	padding-bottom: 0;
+	margin-top: 20px;
+
+}
+
+ul {
+	line-height: 2;
+	margin-left: 1em;
+}
+
+hr.style1 {
+	border-top: 1px solid #8c8b8b;
+	width: 1200px;
+	align: center;
+}
+
+p.recipetext {
+	font-family: 'Crimson Text', Garamond, serif;
+	text-align: justify;
+	color: #525252;
+	padding-bottom: 40px;
+	line-height: 1.25em;
+	font-size: 16px;
+	width: 700px;
+}
+
+.verticalLineleft {
+    border-left: thick solid #5E5E5E;
+}
+
+#herorecipe {
+	font-family: 'Crimson Text', Garamond, serif;
+	font-size: 24px;
+	padding-bottom: 0;
+	padding-top: 20px;
+	font-weight: 100;
+}
+
+#herorecipesub {
+	font-family: 'Crimson Text', Garamond, serif;
+	font-style: italic;
+	padding-top: 0;
+	font-size: 14px;
+	padding-bottom: 20px;
+	font-weight: 300;
+}
+
+#logo {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+footer {
+	clear: both;
+	background-color: #FF957E;
+	padding: 20px;
+	border: 1px black solid;
+}
+
+div/section {
+	 background-color: #FFE2B8;
+	 border: 1px black solid;
+	 padding: 20px;
+}
+
+footer a {
+	color: #5E5E5E;
+	font-family: 'Raleway', Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-decoration: none;
+}
+
+
+
+
