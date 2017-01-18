@@ -17,16 +17,31 @@ body {
 	line-height: 1.25em;
 }
 
+nav {
+	margin-top: 40px;
+	border-top: .75px black dotted;
+	border-bottom: .75px black dotted;
+	margin-bottom: 40px;
+}
+
+main {
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
 aside {
 	padding: 20px;
 }
 
+nav a:hover {
+	color: #436b1c;
+}
+
 
 #navbar {
-	margin-right: 200px;
-	margin-left: 200px;
 	text-align: center;
-	padding-bottom: 80px
+	margin-top: 5px;
+	margin-bottom: 5px;
 } 
 
 #navbar li {
@@ -52,21 +67,22 @@ h1 {
 	padding-bottom: 20px;
 }
 
-h4 {
+h4.asidehed {
 	font-family: 'Raleway', Helvetica, sans-serif;
 	color: #525252;
-	font-weight: 300;
+	font-weight: 700;
 	font-size: 16px;
 	padding-bottom: 20px;
+	text-align: center;
 }
 
 h4.featuredrecipe {
 	font-family: 'Crimson Text', Garamond; serif;
-	font-weight: 300px;
+	font-weight: 600px;
 	font-size: 16px;
-	padding-bottom: 0;
+	margin-bottom: 70px;
 	margin-top: 20px;
-
+	text-align: center;
 }
 
 #imgmain {
@@ -80,8 +96,8 @@ ul {
 
 hr.style1 {
 	border-top: 1px solid #8c8b8b;
-	width: 90%;
-	align: center;
+	width: 70%;
+	margin: auto;
 }
 
 p.recipetext {
@@ -94,10 +110,6 @@ p.recipetext {
 	width: 90%;
 }
 
-.verticalLineleft {
-    border-left: thick solid #5E5E5E;
-}
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -107,10 +119,16 @@ p.recipetext {
 	height: 0;
 }
 
+.featuredrecipeimg {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 #herorecipe {
 	font-family: 'Crimson Text', Garamond, serif;
 	font-size: 24px;
-	margin-top: 20px;
 	font-weight: 100;
 }
 
@@ -151,10 +169,6 @@ aside p {
 footer {
 	clear: both;
 	padding: 20px;
-}
-
-div/section {
-	 padding: 20px;
 }
 
 footer a {
